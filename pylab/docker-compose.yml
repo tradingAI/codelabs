@@ -1,0 +1,11 @@
+version: '3.0'
+
+services:
+  bazel:
+    image: aiminders/library:bazel.latest
+    command:
+      bash /root/pylab/docker-compose.sh
+    volumes:
+      - .:/root/pylab
+      - ${BAZEL_USER_ROOT}:/root/cache/bazel
+      - ${OUTPUT_DIR}:/root/output
