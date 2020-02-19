@@ -1,10 +1,9 @@
 package(default_visibility = ["//visibility:public"])
 
-
 py_library(
     name = "py_default_lib",
     srcs = [
-          "helloworld.py",
+        "helloworld.py",
     ],
     deps = [
         "//pylab/common:py_default_lib",
