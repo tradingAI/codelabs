@@ -1,6 +1,6 @@
 # pylab
 
-pylab 一个python helloworld项目示范
+pylab是一个用python构建helloworld项目示范
 
 ## Getting Started
 

@@ -2,6 +2,26 @@ workspace(name = "com_github_iminders_codelabs_pylab")
 
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
+# TODO: package 下载时间太长, BUILD 的格式化检查暂时用 format_build_files.sh
+# # requirement of 'com_github_bazelbuild_buildtools'
+# load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
+#
+# git_repository(
+#     name = "com_google_protobuf",
+#     remote = "https://github.com/protocolbuffers/protobuf.git",
+#     commit = "d0bfd5221182da1a7cc280f3337b5e41a89539cf",
+# )
+#
+# load("@com_google_protobuf//:protobuf_deps.bzl", "protobuf_deps")
+# protobuf_deps()
+#
+# # buildifier BUILD file linter
+# http_archive(
+#     name = "com_github_bazelbuild_buildtools",
+#     strip_prefix = "buildtools-master",
+#     url = "https://github.com/bazelbuild/buildtools/archive/master.zip",
+# )
+
 http_archive(
     name = "bazel_federation",
     url = "https://github.com/bazelbuild/bazel-federation/releases/download/0.0.1/bazel_federation-0.0.1.tar.gz",
