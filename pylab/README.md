@@ -1,6 +1,6 @@
 # pylab
 
-pylab是一个用python构建helloworld项目示范
+pylab is an example for python project using [bazel build](https://bazel.build/)
 
 ## Getting Started
 
@@ -20,13 +20,16 @@ pip install -r requirements.txt
   ```
   TODO
   ```
-  
+
 ### Deploying
 - set environment
 ```
 TODO
 ```
 - run
+'''
+TODO
+'''
 
 ## Contributing
-pull request
+Please send pull request
