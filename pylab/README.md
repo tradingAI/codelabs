@@ -7,7 +7,7 @@ pylab是一个用python构建helloworld项目示范
 ### Install
 
 ```
-pip install -i http://mirrors.aliyun.com/pypi/simple --trusted-host mirrors.aliyun.com  -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Building
