@@ -8,7 +8,6 @@ bazel --batch \
       test --package_path=/root/pylab \
            --spawn_strategy=standalone \
            --genrule_strategy=standalone \
-           --action_env="TUSHARE_TOKEN=$TUSHARE_TOKEN" \
-           --test_output=errors \
+           --test_output=all \
            -c opt \
            -- //...
