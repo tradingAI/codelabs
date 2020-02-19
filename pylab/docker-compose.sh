@@ -8,6 +8,6 @@ bazel --batch \
       test --package_path=/root/pylab \
            --spawn_strategy=standalone \
            --genrule_strategy=standalone \
-           --test_output=all \
+           --test_output=errors \
            -c opt \
            -- //...

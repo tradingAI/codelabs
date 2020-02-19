@@ -1,5 +1,7 @@
 package(default_visibility = ["//visibility:public"])
 
+load("@pip_deps//:requirements.bzl", "requirement")
+
 py_library(
     name = "py_default_lib",
     srcs = [
