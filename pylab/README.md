@@ -20,10 +20,7 @@ pip install -r requirements.txt
   ```
   TODO
   ```
-- Integration testing
-  ```
-  TODO
-  ```
+  
 ### Deploying
 - set environment
 ```
