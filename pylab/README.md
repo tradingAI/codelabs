@@ -8,6 +8,7 @@ pylab is an example for python project using [bazel build](https://bazel.build/)
 
 ```
 pip install -r requirements.txt
+pip install -e .
 ```
 
 ### Building
@@ -27,9 +28,9 @@ pip install -r requirements.txt
 TODO
 ```
 - run
-'''
+```
 TODO
-'''
+```
 
 ## Contributing
 Please send pull request
